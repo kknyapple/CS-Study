@@ -1,6 +1,6 @@
 1. [Stack](#Stack)
 2. [Queue](#Queue)
-3. [Circular Queue](#Circular Queue)
+3. [Circular Queue](#Circular)
 4. [Deque](#Deque)
 
 # **Stack**
