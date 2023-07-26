@@ -1,3 +1,5 @@
+[Stack](#Stack)
+
 # **Stack**
 
 ## **개념**
