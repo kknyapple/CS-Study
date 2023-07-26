@@ -8,8 +8,6 @@
 
 ## **장단점**
 
-https://i-need-development.tistory.com/29
-
 ### 장점
 
 1) 구조가 단순해서 구현이 쉬움
@@ -37,14 +35,10 @@ https://i-need-development.tistory.com/29
 
 ## **시간 복잡도**
 
-[https://velog.io/@sbinha/스택-큐](https://velog.io/@sbinha/%EC%8A%A4%ED%83%9D-%ED%81%90)
-
 - 삽입, 삭제 : O(1)
 - 조회 : O(n)
 
 ## **사용 사례**
-
-https://seill.tistory.com/576
 
 1. 재귀 알고리즘
     
@@ -63,8 +57,6 @@ https://seill.tistory.com/576
 6. 후위 표기법 계산
 
 ## **구현 예시 코드 (JAVA)**
-
-https://go-coding.tistory.com/5
 
 ```java
 import java.util.Stack;
@@ -110,8 +102,6 @@ public class Main {
 
 ## **장단점**
 
-[https://ralp0217.tistory.com/entry/자료구조Stack-Queue-Deque](https://ralp0217.tistory.com/entry/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0Stack-Queue-Deque)
-
 ### 장점
 
 1) 데이터 저장/읽기 속도가 빠름
@@ -128,8 +118,6 @@ public class Main {
 
 ## **연산 (JAVA)**
 
-https://crazykim2.tistory.com/571
-
 - add(e), offer(e) : 원소 e를 삽입
 - poll( ), remove( ) : 맨 앞의 값 삭제
 - clear( ) : 큐의 전체 값 제거
@@ -140,13 +128,9 @@ https://crazykim2.tistory.com/571
 
 ## **시간 복잡도**
 
-[https://velog.io/@nnnyeong/자료구조-스택-Stack-큐-Queue-덱-Deque](https://velog.io/@nnnyeong/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%EC%8A%A4%ED%83%9D-Stack-%ED%81%90-Queue-%EB%8D%B1-Deque)
-
 - 삽입, 삭제 : O(1)
 
 ## **사용 사례**
-
-https://seill.tistory.com/576
 
 1. 너비 우선 탐색 (BFS)
     
@@ -165,8 +149,6 @@ https://seill.tistory.com/576
 8. 프로세스 관리
 
 ## **구현 예시 코드**
-
-https://go-coding.tistory.com/6
 
 ```java
 import java.util.LinkedList;
@@ -195,8 +177,6 @@ public class Main {
 # Circular Queue (원형 큐)
 
 ## 개념
-
-[https://velog.io/@mcc919/Data-Structure-원형-큐Circular-Queue-알아보기](https://velog.io/@mcc919/Data-Structure-%EC%9B%90%ED%98%95-%ED%81%90Circular-Queue-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0)
 
 선형 큐의 문제점을 보완하기 위한 자료구조
 
@@ -230,8 +210,6 @@ Deque(데크)는 double-ended-queue의 줄임말로, 양방향에서 데이터�
 
 ## 연산 (JAVA)
 
-https://soft.plusblog.co.kr/24
-
 - addFirst() : 덱의 앞쪽에 엘리먼트 삽입, 용량 초과하면 예외 발생
 - offerFirst() : 덱의 앞쪽에 엘리먼트 삽입, 정상적으로 엘리먼트 삽입되면 true 리턴
 - addLast() : 덱의 마지막 쪽에 엘리먼트 삽입, 용량 초과하면 예외 발생
@@ -256,8 +234,6 @@ https://soft.plusblog.co.kr/24
 - descendingIterator() : 덱의 뒤쪽부터 순차적으로 실행되는 이터레이터(iterator)를 얻어옴
 
 ## **시간 복잡도**
-
-[https://velog.io/@esun1903/자료구조-Deque](https://velog.io/@esun1903/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-Deque)
 
 - 삽입, 삭제 : O(1)
 
