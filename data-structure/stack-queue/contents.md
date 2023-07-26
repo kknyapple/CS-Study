@@ -2,7 +2,7 @@
 
 ## **개념**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4abb9d30-cb9c-4742-a33a-91c03c91747d/Untitled.png)
+<img src="https://blog.kakaocdn.net/dn/bcgR9A/btqSX70PCTe/dMSMQoJcZhDpq4sRRpu3A0/img.png">
 
 맨 위의 특정 위치에서 가장 나중에 들어온 것이 가장 먼저 빠져 나가는 구조.
 
@@ -106,7 +106,7 @@ public class Main {
 
 ## **개념**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/455731f8-84fd-49fd-83e9-76ce4bc498c8/Untitled.png)
+<img src="https://t1.daumcdn.net/cfile/tistory/9929C0495C932BB115">
 
 양 쪽 끝에서만 데이터를 넣거나 뺄 수 있는 선형 구조. 선입선출 형태의 선형 자료구조이다.
 
@@ -202,7 +202,8 @@ public class Main {
 
 [https://velog.io/@mcc919/Data-Structure-원형-큐Circular-Queue-알아보기](https://velog.io/@mcc919/Data-Structure-%EC%9B%90%ED%98%95-%ED%81%90Circular-Queue-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e69d9fb2-f0a7-4618-8e53-4b994f7a2e4c/Untitled.png)
+![image](https://github.com/Ahrang777/CS-Study/assets/60701386/dc928e69-0481-4b2a-87a0-30ab661ca8e7)
+
 
 선형 큐의 문제점을 보완하기 위한 자료구조
 
@@ -220,7 +221,7 @@ public class Main {
 
 ## 개념
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/479decbb-eb4e-4994-afe3-b5443b8f7588/Untitled.png)
+<img src="https://t1.daumcdn.net/cfile/tistory/9955354C5C4723F11C">
 
 Deque(데크)는 double-ended-queue의 줄임말로, 양방향에서 데이터를 처리할 수 있는 queue형 자료구조
 
