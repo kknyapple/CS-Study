@@ -6,6 +6,7 @@
 # **Stack**
 
 ## **개념**
+<img width="347" alt="스택" src="https://github.com/RIN-1011/RIN-1011/assets/60701386/85560f21-29f1-4282-8055-1461a341dc98">
 
 맨 위의 특정 위치에서 가장 나중에 들어온 것이 가장 먼저 빠져 나가는 구조.
 
@@ -101,6 +102,7 @@ public class Main {
 # **Queue**
 
 ## **개념**
+![큐](https://github.com/RIN-1011/RIN-1011/assets/60701386/be61bb2e-1ca0-48e9-8915-2b36e234c21b)
 
 양 쪽 끝에서만 데이터를 넣거나 뺄 수 있는 선형 구조. 선입선출 형태의 선형 자료구조이다.
 
@@ -184,6 +186,7 @@ public class Main {
 # Circular Queue (원형 큐)
 
 ## 개념
+![원형 큐](https://github.com/RIN-1011/RIN-1011/assets/60701386/4a525e6d-580a-4d1d-8f9b-48af1080ea73)
 
 선형 큐의 문제점을 보완하기 위한 자료구조
 
@@ -201,6 +204,7 @@ public class Main {
 # Deque
 
 ## 개념
+![덱](https://github.com/RIN-1011/RIN-1011/assets/60701386/85eda851-2948-48f9-8943-2639233ca6eb)
 
 Deque(데크)는 double-ended-queue의 줄임말로, 양방향에서 데이터를 처리할 수 있는 queue형 자료구조
 
