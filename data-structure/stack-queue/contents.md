@@ -1,6 +1,6 @@
 1. [Stack](#Stack)
 2. [Queue](#Queue)
-3. [Circular Queue](#Circular)
+3. [Circular Queue](#circular-queue-원형-큐)
 4. [Deque](#Deque)
 
 # **Stack**
@@ -181,7 +181,7 @@ public class Main {
 ```
 
 
-# Circular Queue
+# Circular Queue (원형 큐)
 
 ## 개념
 
