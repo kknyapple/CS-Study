@@ -92,6 +92,7 @@ public class Main {
 }
 ```
 
+
 # **Queue**
 
 ## **개념**
@@ -174,6 +175,7 @@ public class Main {
 }
 ```
 
+
 # Circular Queue (원형 큐)
 
 ## 개념
@@ -189,6 +191,7 @@ public class Main {
 1) 배열 큐 : 이미 사용한 영역의 front 앞부분에 대해 다시 활용 불가 → 메모리 낭비
 
 2) 이동 큐 : 큐가 다 찼을 경우 데이터 앞쪽으로 이동시키는 연산 → 연산 낭비
+
 
 # Deque
 
