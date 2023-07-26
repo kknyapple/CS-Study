@@ -181,7 +181,7 @@ public class Main {
 ```
 
 
-# Circular Queue
+# Circular Queue (원형 큐)
 
 ## 개념
 
