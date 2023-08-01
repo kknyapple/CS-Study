@@ -77,6 +77,19 @@ HTTP의 문제점은 브라우저로 전송되는 정보(텍스트)가 암호화
 
 # HTTPS 동작 과정
 
+> 클라이언트가 서버에 접속하면, 서버는 클라이언트에게 SSL 인증서 정보를 전달하고, 해당 인증서가 확인이 된 이후에 내부에 존재하는 공개키를 활용해 `세션키` 라는 것을 생성하고, 이를 활용해 통신을 시작한다. 이렇게 SSL 프로토콜을 활용해 통신을 수립하는 과정을 `SSL/TSL Handshake` 라고 한다.
+
+1. **client hello** : 클라이언트가 서버로 hello 하면서 `SSL 버전`, `지원되는 암호 제품군`, 무작위로 생성한 `client random`을 포함한 메시지 전송
+2. **server hello**: 클라이언트의 hello 메시지에 대한 응답으로 서버가 서버의 `SSL 인증서`, 서버에서 `선택한 암호 제품군`, 서버에서 생성한 무작위 바이트 문자열인 `server random`을 포함한 메시지 전송
+3. **verify server certificate**: 클라이언트가 서버의 SSL 인증서를 인증서 발행 기관(CA)를 통해 검증
+4. **client key exchange**: 인증 확인 후, 클라이언트는 무작위 바이트 문자열(`the premaster secret`을 공개키로 암호화 하여 전송 (이 공개키는 서버의 SSL 인증서에 포함되어 있다.)
+5. **send client certificate**: 서버가 클라이언트의 인증서를 요구한다면, 서버의 인증서와 같은 방식으로 암호화를 진행하여 함께 전송
+6. **verify client certificate**: 서버가 클라이언트로 받은 문자열을 개인키를 통해 해독
+7. **client “finished”**: 클라이언트가 `client random`, `server random`, `the premaster secret`을 통해 대칭키로 활용할 `세션 키`를 생성 후, 세션 키로 암호화 된 `"finished"` 메시지 전송
+8. **server “finished”**: 서버가 `client random`, `server random`, `the premaster secret`을 통해 대칭키로 활용할 `세션 키`를 생성 후, 세션 키로 암호화 된 `"finished"` 메시지 전송
+9. **exchange messages**: handshake 완료 후, 세션 키를 이용해 메세지를 주고 받음
+10. **end session**: 세션 종료 후 세션 키 폐기
+
 ---
 
 ## 참고
@@ -86,3 +99,5 @@ HTTP의 문제점은 브라우저로 전송되는 정보(텍스트)가 암호화
 [[Web] HTTP와 HTTPS의 개념 및 차이점](https://mangkyu.tistory.com/98)
 
 https://loosie.tistory.com/718#SSL/TLS_%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9C_(%ED%95%98%EC%9D%B4%EB%B8%8C%EB%A6%AC%EB%93%9C_%EC%95%94%ED%98%B8%ED%99%94_%EC%8B%9C%EC%8A%A4%ED%85%9C)
+
+https://inuplace.tistory.com/1086
