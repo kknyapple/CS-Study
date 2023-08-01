@@ -79,6 +79,9 @@ HTTP의 문제점은 브라우저로 전송되는 정보(텍스트)가 암호화
 
 > 클라이언트가 서버에 접속하면, 서버는 클라이언트에게 SSL 인증서 정보를 전달하고, 해당 인증서가 확인이 된 이후에 내부에 존재하는 공개키를 활용해 `세션키` 라는 것을 생성하고, 이를 활용해 통신을 시작한다. 이렇게 SSL 프로토콜을 활용해 통신을 수립하는 과정을 `SSL/TSL Handshake` 라고 한다.
 
+![image](https://github.com/Ahrang777/CS-Study/assets/100702397/ad8abe5b-16e4-4eb1-a080-04529f5ef7da)
+
+
 1. **client hello** : 클라이언트가 서버로 hello 하면서 `SSL 버전`, `지원되는 암호 제품군`, 무작위로 생성한 `client random`을 포함한 메시지 전송
 2. **server hello**: 클라이언트의 hello 메시지에 대한 응답으로 서버가 서버의 `SSL 인증서`, 서버에서 `선택한 암호 제품군`, 서버에서 생성한 무작위 바이트 문자열인 `server random`을 포함한 메시지 전송
 3. **verify server certificate**: 클라이언트가 서버의 SSL 인증서를 인증서 발행 기관(CA)를 통해 검증
