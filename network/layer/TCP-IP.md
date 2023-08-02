@@ -1,6 +1,6 @@
 # 목차
-1. [TCP/IP란](#TCP/IP란)
-2. [OSI 7계층 VS TCP/IP 4계층](#OSI-7계층-VS-TCP/IP-4계층)
+1. [TCP/IP란](#tcpip란)
+2. [OSI 7계층 VS TCP/IP 4계층](#osi-7계층-vs-tcpip-4계층)
 3. [사용 이유](#사용-이유)
 4. [계층](#계층)
 5. [참고](#참고)
