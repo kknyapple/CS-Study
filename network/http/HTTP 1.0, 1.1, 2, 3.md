@@ -67,8 +67,8 @@
 - QUIC 계층 위에서 동작하며 UDP 기반으로 돌아간다.
 - TCP를 사용하지 않기 때문에 TCP 3 way handshake 과정을 거치지 않아도 된다.
 
-https://dkrnfls.tistory.com/289
-
-https://lietenant-k.tistory.com/m/120
-
-[https://velog.io/@cjh8746/HTTP-Keep-Alive-와-pipelining-그리고-Multiplexed-Streams을-공부하다가-알게된-버전열-HTTP0.9-2.0-정리](https://velog.io/@cjh8746/HTTP-Keep-Alive-%EC%99%80-pipelining-%EA%B7%B8%EB%A6%AC%EA%B3%A0-Multiplexed-Streams%EC%9D%84-%EA%B3%B5%EB%B6%80%ED%95%98%EB%8B%A4%EA%B0%80-%EC%95%8C%EA%B2%8C%EB%90%9C-%EB%B2%84%EC%A0%84%EC%97%B4-HTTP0.9-2.0-%EC%A0%95%EB%A6%AC)
+## 참고
+- 면접을 위한 CS 전공지식 노트
+- https://dkrnfls.tistory.com/289
+- https://lietenant-k.tistory.com/m/120
+- [https://velog.io/@cjh8746/HTTP-Keep-Alive-와-pipelining-그리고-Multiplexed-Streams을-공부하다가-알게된-버전열-HTTP0.9-2.0-정리](https://velog.io/@cjh8746/HTTP-Keep-Alive-%EC%99%80-pipelining-%EA%B7%B8%EB%A6%AC%EA%B3%A0-Multiplexed-Streams%EC%9D%84-%EA%B3%B5%EB%B6%80%ED%95%98%EB%8B%A4%EA%B0%80-%EC%95%8C%EA%B2%8C%EB%90%9C-%EB%B2%84%EC%A0%84%EC%97%B4-HTTP0.9-2.0-%EC%A0%95%EB%A6%AC)
