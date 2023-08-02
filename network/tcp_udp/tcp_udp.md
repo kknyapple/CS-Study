@@ -2,7 +2,7 @@
 
 네트워크의 계층들 중 전송 계층에 해당합니다. 전송계층은 송신자와 수신자를 연결하는 통신서비스를 제공하는 계층으로, 쉽게 말해 데이터의 전달을 담당합니다.  이런 **데이터를 보내기 위해 사용하는 프로토콜**이 TCP와 UDP입니다. 
 
-![layer](../images/tcp_udp/layer.jpeg)
+![layer](https://github.com/Ahrang777/Ahrang777.github.io/assets/59478159/27f223fa-e72d-4058-accb-91cc965b8918)
 
 
 
@@ -10,7 +10,7 @@
 
 TCP는 인터넷상에서 데이터를 메시지의 형태로 보내기 위해 IP와 함께 사용하는 프로토콜 입니다. IP가 데이터의 배달을 처리한다면 TCP는 패킷을 추적하고 관리하게 됩니다. 
 
-![TCP](../images/tcp_udp/TCP.png)
+![TCP](https://github.com/Ahrang777/Ahrang777.github.io/assets/59478159/15115902-325f-42b6-8bb1-3f51becca439)
 
 
 
@@ -37,7 +37,7 @@ TCP가 연결 지향 방식이라는 것은 패킷을 전송하기 위한 논리
 
 TCP는 상위계층으로부터 데이터를 받아 헤더를 추가하여 IP로 전송합니다. 
 
-![TCP_header](../images/tcp_udp/TCP_header.png)
+![TCP_header](https://github.com/Ahrang777/Ahrang777.github.io/assets/59478159/e05cf533-d106-4780-ae23-4f78737ef419)
 
 | 필드                          | 내용                                                         | 크기(bits) |
 | ----------------------------- | ------------------------------------------------------------ | ---------- |
@@ -95,7 +95,7 @@ UDP는 데이터를 데이터그램 단위로 처리하는 프로토콜입니다
 
 
 
-![UDP](../images/tcp_udp/UDP.png)
+<img width="326" alt="UDP" src="https://github.com/Ahrang777/Ahrang777.github.io/assets/59478159/dc1c3df3-5363-4d46-86e9-5550b0b48071">
 
 
 
@@ -115,7 +115,7 @@ UDP는 비연결형 서비스이기 때문에, 연결을 설정하고 해제하�
 
 ### 헤더
 
-![UDP_header](../images/tcp_udp/UDP_header.png)
+![UDP_header](https://github.com/Ahrang777/Ahrang777.github.io/assets/59478159/d24a9f48-51ba-4b80-a269-21f0500f9726)
 
 | 필드                          | 내용                                                         | 크기(bits) |
 | ----------------------------- | ------------------------------------------------------------ | ---------- |
@@ -127,7 +127,7 @@ UDP는 비연결형 서비스이기 때문에, 연결을 설정하고 해제하�
 
 마지막으로 다음은 TCP와 UDP의 특징을 간단하게 비교한 표입니다. 
 
-![TCP_UDP비교](../images/tcp_udp/TCP_UDP비교.png)
+![TCP_UDP비교](https://github.com/Ahrang777/Ahrang777.github.io/assets/59478159/f5ff3a01-77ea-4809-a026-25dd433772a9)
 
 
 
