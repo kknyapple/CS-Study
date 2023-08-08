@@ -65,3 +65,23 @@ id=abc123&password=1234* // Message Body 부분(get 요청은 이 부분을 사�
 
 - 요청 정보를 body 안에 숨겨서 전송하기 때문에 대용량의 데이터를 전송하기 적합하다.
 - GET 방식보다 보안상 안전하다.
+
+## `Get` vs `Method` 정리
+
+|                  | GET           | POST          |
+| ---------------- | ------------- | ------------- |
+| 캐시             | O             | X             |
+| 브라우저 기록    | O             | X             |
+| 데이터 길이 제한 | O             | X             |
+| HTTP 응답 코드   | 200(Ok)       | 201(Created)  |
+| 언제 사용?       | 리소스 요청시 | 리소스 생성시 |
+| 리소스 전달 방식 | 쿼리스트링    | http body     |
+
+<br/>
+
+---
+
+### [참고]
+
+https://velog.io/@songyouhyun/Get%EA%B3%BC-Post%EC%9D%98-%EC%B0%A8%EC%9D%B4%EB%A5%BC-%EC%95%84%EC%8B%9C%EB%82%98%EC%9A%94
+https://atoz-develop.tistory.com/entry/HTTP-GET-%EB%A9%94%EC%86%8C%EB%93%9C%EC%99%80-POST-%EB%A9%94%EC%86%8C%EB%93%9C%EC%9D%98-%EB%B9%84%EA%B5%90
