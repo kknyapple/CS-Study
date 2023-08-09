@@ -2,7 +2,7 @@
 
 CORS란 Cross Origin Resource Sharing 의 약자로 한국어로 직역하면 교차 출처 리소스 공유라고 해석할 수 있습니다. 여기서 “교차 출처”라고 하는 것은 “다른 출처”를 의미합니다. 쉽게 말하자면 친구의 물건을 쓰려면 친구가 제한하는 규약안에서 사용해야 하듯, 다른 도메인의 자원을 쓰려면 자원의 주인이 허락한 규약을 지켜야 하는 것이고 이러한 규약을 표준화한 것이 CORS 입니다.
 
-![cors1](C:\Users\pj501\Desktop\cors1.png)
+![cors1](https://github.com/Ahrang777/Ahrang777.github.io/assets/59478159/0fef1179-2b9c-4b65-b44b-f62dad4c0627)
 
 
 
@@ -10,7 +10,7 @@ CORS란 Cross Origin Resource Sharing 의 약자로 한국어로 직역하면 �
 
 https://google.com과 같은 URL들은 하나의 문자열 같아 보여도, 사실 여러 구성 요소로 이루어져 있습니다.
 
- ![cors2](C:\Users\pj501\Desktop\cors2.png)
+ ![cors2](https://github.com/Ahrang777/Ahrang777.github.io/assets/59478159/79c3b0fe-07e6-4323-91aa-beb6771ffaca)
 
 
 
@@ -69,7 +69,7 @@ Generally, reading information from another origin is forbidden. However, an ori
 
 만약 우리가 CORS 정책을 위반하는 리소스 요청을 하더라도 해당 서버가 같은 출처에서 보낸 요청만 받겠다는 로직을 가지고 있는 경우가 아니라면 서버는 정상적으로 응답을 하고, 이후 브라우저가 이 응답을 분석해서 CORS 정책 위반이라고 판단되면 그 응답을 사용하지 않고 그냥 버리는 형태입니다.
 
-![cors3](C:\Users\pj501\Desktop\cors3.png)
+![cors3](https://github.com/Ahrang777/Ahrang777.github.io/assets/59478159/e98a5037-7fee-4cce-bc67-5934af54230a)
 
 
 
