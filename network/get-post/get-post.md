@@ -33,16 +33,12 @@ HTTP 프로토콜을 이용하여 서버에 무엇인가 요청할 때 사용하
 
 - 서버의 값이나 상태를 변경하기 위한 메소드(insert, update, delete)
 
-### 사용
-
-- 자료 검색, 게시글 조회, 특정 상품 정보 조회 등
-
 ### 특징
 
 - 요청 정보를 HTTP 패킷의 `BODY` 안에 숨겨서 서버로 전송한다.
 - Request Header 필드 중 body의 데이터를 설명하는 `Content-Type`에 해당 데이터 타입이 표현되며, 전송하고자 하는 데이터 타입을 적어주어야 한다.
 
-```json
+```
 POST http://localhost:8080/web02/LoginServlet HTTP/1.1 // POST 메소드
 Host: localhost:8080
 Connection: keep-alive
