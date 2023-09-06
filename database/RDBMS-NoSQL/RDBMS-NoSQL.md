@@ -65,3 +65,7 @@
 - 정확한 데이터 구조를 알 수 없으며, 변경 및 확장이 가능한 경우
 - 데이터의 읽기 행위가 대다수이며 변경 행위는 많지 않은 경우(=여러 데이터를 변경할 필요가 없는 경우)
 - 데이터베이스를 막대한 데이터 양에 의해 수평적으로 확장해야 하는 경우
+---
+https://velog.io/@platinouss/RDBMS%EC%99%80-NoSQL-%EA%B0%81%EA%B0%81%EC%9D%98-%EA%B0%9C%EB%85%90-%EB%B0%8F-NoSQL%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EC%83%81%ED%99%A9%EC%9D%80
+
+https://universitytomorrow.com/26
