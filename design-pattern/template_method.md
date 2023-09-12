@@ -1,15 +1,3 @@
----
-layout: single
-title:  "템플릿 메서드 패턴(Template Method Pattern)"
-categories: sw
-tag: [sw, design pattern]
-toc: true
-author_profile: false
-sidebar:
-    nav: "docs"
----
-
-
 
 # 템플릿 메소드 패턴(Template Method Pattern)이란?
 
