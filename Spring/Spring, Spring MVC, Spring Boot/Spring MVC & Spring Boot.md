@@ -12,7 +12,7 @@
 - Handler(Controller)
     - DispatcherServlet가 전달해준 HTTP 요청을 처리하고 결과를 Model에 저장한다.
 - ModelAndView
-    - controller에 의해 반환된 Model과 View가 Wapping된 객체이다.
+    - controller에 의해 반환된 Model과 View가 Wrapping된 객체이다.
 - ViewResolver
     - Model에 저장된 데이터를 사용해 View를 그리는 역할을 한다.
 
