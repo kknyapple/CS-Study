@@ -2,9 +2,7 @@
 
 필터는 **J2EE 표준 스펙 기능으로 디스패처 서블릿(Dispatcher Servlet)에 요청이 전달되기 전/후에 url 패턴에 맞는 모든 요청에 대해 부가작업을 처리할 수 있는 기능을 제공**합니다. 디스패처 서블릿은 스프링의 가장 앞단에 존재하는 프론트 컨트롤러이므로, 필터는 스프링 범위 밖에서 처리가 되는 것입니다. 즉, 스프링 컨테이너가 아닌 톰캣과 같은 웹 컨테이너(서블릿 컨테이너)에 의해 관리가 되는 것이고(스프링 빈으로 등록은 됩니다), 디스패처 서블릿 전/후에 처리하는 것입니다. 
 
-
-
-![filter](C:\Users\pj501\Desktop\filter.png)
+![filter](https://github.com/Ahrang777/Ahrang777.github.io/assets/59478159/d9acbeba-0fc9-4f07-ae09-dfa8383a74e7)
 
 
 
@@ -54,7 +52,7 @@ destroy 메소드는 필터 객체를 서비스에서 제거하고 사용하는 
 
 인터셉터는 스프링 컨테이너 내에서 동작하므로 필터를 거쳐 프론트 컨트롤러인 디스패처 서블릿이 요청을 받은 이후에 동작하게 되는데, 이러한 호출 순서를 그림으로 표현하면 다음과 같습니다. (실제로는 Interceptor가 Controller로 요청을 위임하지는 않습니다. 아래의 그림은 처리 순서를 도식화한 것으로만 이해하면 됩니다. )
 
-![interceptor](C:\Users\pj501\Desktop\interceptor.png)
+![interceptor](https://github.com/Ahrang777/Ahrang777.github.io/assets/59478159/8734202a-560c-4be0-aa67-9dd8020d4da9)
 
 
 
