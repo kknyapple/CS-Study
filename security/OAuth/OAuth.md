@@ -31,9 +31,9 @@ Github 계정을 바탕으로 웹 어플리케이션에 로그인하고, Github�
 
 Client(웹 어플리케이션)가 Resource Server(Github)를 이용하기 위해서는 자신의 서비스를 등록함으로써 사전 승인을 받아야 합니다. [Github Developer Settings](https://github.com/settings/developers) 에서 Github에 웹 어플리케이션을 등록합니다.
 
-![oauth1](C:\Users\pj501\Desktop\oauth1.png)
+![oauth1](https://github.com/Ahrang777/Ahrang777.github.io/assets/59478159/057cd842-5f16-4e05-a68e-ec8e3937c314)
 
-![oauth2](C:\Users\pj501\Desktop\oauth2.png)
+![oauth2](https://github.com/Ahrang777/Ahrang777.github.io/assets/59478159/e680a701-195c-4216-b2a4-5756e5
 
 등록 절차를 통해 세 가지 정보를 부여받습니다.
 
@@ -58,7 +58,7 @@ GET https://github.com/login/oauth/authorize?client_id={client_id}&redirect_uri=
 
 Resource Owner는 Client의 웹 어플리케이션을 이용하다가, 해당 주소로 연결되는 소셜 로그인 버튼을 클릭합니다.
 
-![oauth3](C:\Users\pj501\Desktop\oauth3.png)
+<img width="519" alt="oauth3" src="https://github.com/Ahrang777/Ahrang777.github.io/assets/59478159/4ff09562-d001-4a3e-b715-2f898411f170">
 
 
 
@@ -67,7 +67,7 @@ Resource Owner는 Resource Server에 접속하여 로그인을 수행합니다. 
 - 파라미터로 전달된 Client ID와 동일한 ID 값이 존재하는지 확인합니다.
 - 해당 Client ID에 해당하는 Redirect URL이 파라미터로 전달된 Redirect URL과 같은지 확인합니다.
 
-![oauth4](C:\Users\pj501\Desktop\oauth4.png)
+<img width="601" alt="oauth4" src="https://github.com/Ahrang777/Ahrang777.github.io/assets/59478159/d008bdf0-7b97-4846-bce2-495b0770c523">
 
 검증이 마무리 되면 Resource Server는 Resource Owner에게 다음과 같은 질의를 보냅니다.
 
@@ -81,7 +81,7 @@ Resource Owner는 Resource Server에 접속하여 로그인을 수행합니다. 
 
 Resource Owner의 승인이 마무리 되면 명시된 Redirect URL로 클라이언트를 리다이렉트 시킵니다. 이 때 Resource Server는 Client가 자신의 자원을 사용할 수 있는 Access Token을 발급하기 전에, 임시 암호인 Authorization Code를 함께 발급합니다.
 
-![oauth5](C:\Users\pj501\Desktop\oauth5.png)
+![oauth5](https://github.com/Ahrang777/Ahrang777.github.io/assets/59478159/84ed066e-dd38-4f90-8673-1bec8a4de32a)
 
 - Query String으로 들어온 code가 바로 Authorization Code입니다.
 
@@ -89,7 +89,7 @@ Resource Owner의 승인이 마무리 되면 명시된 Redirect URL로 클라이
 
 Client는 ID, Secret key, Authorization code를 Resource Owner를 거치지 않고 Resource Server에 직접 전달합니다. Resource Server는 정보를 검사한 다음, 유효한 요청이라면 Access Token(여기서 Access Token은 Resource Server의 자원을 이용할 수 있는 Resource Server에서 발급한 token입니다. JWT를 이용하는 Client의 인증을 위한 Access Token이 아님 )을 발급하게 됩니다.
 
-![oauth6](C:\Users\pj501\Desktop\oauth6.png)
+![oauth6](https://github.com/Ahrang777/Ahrang777.github.io/assets/59478159/2a5ff347-79b0-4b82-a146-02018ab4f3da)
 
 Client는 해당 토큰을 서버에 저장해두고, Resource Server의 자원을 사용하기 위한 API 호출시 해당 토큰을 헤더에 담아 보냅니다.
 
@@ -97,7 +97,7 @@ Client는 해당 토큰을 서버에 저장해두고, Resource Server의 자원�
 
 ### 4. API 호출
 
-![oauth7](C:\Users\pj501\Desktop\oauth7.png)
+![oauth7](https://github.com/Ahrang777/Ahrang777.github.io/assets/59478159/b1569876-565d-4e38-99b4-d204051c8c95)
 
 이후 Access Token을 헤더에 담아 Github API를 호출하면, 해당 계정과 연동된 Resource Server의 풍부한 자원 및 기능들을 내가 만든 웹 어플리케이션에서 사용할 수 있습니다. 
 
